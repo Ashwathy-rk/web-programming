@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>form</title>
+     <link rel="stylesheet" href="C:\Users\Ashwathy R K\Desktop\html\font.css">
+<style>
+h1 {color:blue;}
+<h1 style="color:blue;"></h1>
+</style>
+</head>
+<body>
+<form>
+<h1>REGISTRATION FORM</h1>
+<label for="fname">FIRST NAME:</label>
+<input type="text" id="fname" value="ASHWATHY"><br>
+<label for="lname">LAST NAME:</label>
+<input type="text" id="lname" value="R K"><br>
+<label for="uSERNAME">USERNAME:</label>
+<input type="text" id="username" name="username"><br>
+<label for="password">PASSWORD:</label>
+<input type="password" id="password" name="password"><br>
+<label for="dob">DATE OF BIRTH:</label>
+<input type="date" id="date of birth" name="date of birth"><br>
+<label for="email">E-mail</label>
+<input type="email" id="email" name="email"><br>
+
+<h3>Enter you Department:
+<input type="radio" id="mca" name="hobby" value="btech">
+<label for="mca">btech</label>
+<input type="radio" id="ajce" name="square" value="mca">
+<label for="ajce">mca</label>
+<input type="radio" id="btech" name="circle" value="mtech">
+<label for="btech">mtech</label></h3>
+
+<h3>Choose your streem in BTECH:
+<input type="radio" id="streem" name="streem" value="cs">
+<label for="streem">cs</label>
+<input type="radio" id="streem" name="streem" value="it">
+<label for="streem">it</label>
+<input type="radio" id="streem" name="streem" value="mech">
+<label for="streem">mech</label></h3>
+
+<h3>Choose your streem in MCA :
+<input type="radio" id="streem" name="streem" value="regular">
+<label for="streem">regular</label>
+<input type="radio" id="streem" name="streem" value="integrated">
+<label for="streem">integrated</label></h3>
+
+<h3>Choose your streem in MTECH:
+<input type="radio" id="streem" name="streem" value="cs">
+<label for="streem">cs</label>
+<input type="radio" id="streem" name="streem" value="it">
+<label for="streem">it</label>
+<input type="radio" id="streem" name="streem" value="mech">
+<label for="streem">mech</label></h3>
+
+<h3>select the number of years you need to complete the course</br>
+<input type="checkbox" id="year" name="year" value="one year">
+<label for="year">one year</label><br>
+<input type="checkbox" id="year" name="year" value="two year">
+<label for="year">two year</label><br>
+<input type="checkbox" id="year" name="year" value="three year">
+<label for="year">three year</label><br>
+<input type="checkbox" id="year" name="year" value="four year">
+<label for="boat">four year</label><br></h3>
+
+<label for="pay">choose your payment option:</label>
+<select id="pay" name="pay" size="" multiple>
+<option value="GPAY" selected>GPAY</option>
+<option value="PAYTM">PAYTM</option>
+<option value="PHONE PAY">PHONE PAY</option>
+<option value="AMAZON PAY">AMAZON PAY</option>
+</select><br>
+
+<center><button type="button" onclick="alert('the method you selected is invalid')">CLICK HERE TO CONTINUE</button></center><br>
+
+<h4>Enter your opinion</h4>
+<textarea name="message" rows="10" cols="100"></textarea></br>
+<h3>Enter country you are from : <input list="country"></h3>
+<datalist id="country">
+<option value="India">
+<option value="Pakistan">
+<option value="Russia">
+<option value="America">
+<option value="Korea">-
+<option value="China">
+</datalist><br>
+
+<input type="submit" value="submit">
+</form>
+</body>
